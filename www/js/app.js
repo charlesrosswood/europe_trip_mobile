@@ -67,6 +67,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     })
 
+  .state('tab.map', {
+    url: '/map-posts',
+    views: {
+      'map-posts': {
+        templateUrl: 'templates/map-posts.html',
+        controller: 'MapPosts'
+      }
+    }
+  })
+
   .state('tab.account', {
     url: '/account',
     views: {

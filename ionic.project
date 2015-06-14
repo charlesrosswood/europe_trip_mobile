@@ -1,4 +1,10 @@
 {
   "name": "EuropeTrip",
-  "app_id": ""
+  "app_id": "",
+  "proxies": [
+    {
+      "path": "/get-updated-posts",
+      "proxyUrl": "http://europe2015.herokuapp.com/get-updated-posts"
+    }
+  ]
 }
